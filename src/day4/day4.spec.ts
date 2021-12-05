@@ -1,5 +1,5 @@
 import { part1, part2 } from './day4';
-fdescribe('day4', () => {
+describe('day4', () => {
   describe('part1', () => {
     it('example data 1', () => {
       const steps = [
