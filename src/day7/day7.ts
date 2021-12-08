@@ -29,7 +29,6 @@ export const part2 = (input: number[]): number => {
 const findMinMax = (input: number[]): [number, number] => {
   let min = Number.MAX_SAFE_INTEGER;
   let max = Number.MIN_SAFE_INTEGER;
-  console.log(sumUp(4));
   for (let num of input) {
     if (num > max) {
       max = num;
